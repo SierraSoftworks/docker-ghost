@@ -1,4 +1,4 @@
-FROM ghost:0.11
+FROM ghost:0.11.1
 MAINTAINER Benjamin Pannell <admin@sierrasoftworks.com>
 
 ADD config.js /usr/src/ghost/config.js
