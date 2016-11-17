@@ -1,5 +1,6 @@
 pipeline:
-    docker:
+    docker:push:
+        image: plugins/docker
         repo: sierrasoftworks/ghost
         tag:
             - latest
